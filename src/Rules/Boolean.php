@@ -18,6 +18,6 @@ class Boolean extends Rule
      */
     public function check($value): bool
     {
-        return \in_array($value, [\true, \false, "true", "false", 1, 0, "0", "1", "y", "n"], \true);
+        return \in_array($value, [\true, \false, "true", "false", 1, 0, "0", "1"], \true);
     }
 }
